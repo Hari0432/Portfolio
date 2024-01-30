@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="svg/x-icon" href="Images\favicon.svg">
+    <title>Personal_Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/48f27697f1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <a href="#header"><img src="Images/Hari_logo.svg" class="logo"></a>
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <div class="theme_btn">
+                        <div class="btn_indicator">
+                            <div class="btn_container" onclick="alertmsg">
+                                <i class="fa-regular"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p class="role">Developer</p>
+                    <h1>Hey Hi, <br> I'm <span class="name">Harigokul</span></h1>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/harigokul/">LI</a>
+                        <a href="https://github.com/Hari021">GH</a>
+                        <a href="https://twitter.com/Harigokul_0211">TW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- --------About------- -->
+    <section>
+        <div id="about">
+            <div class="container1">
+                <div class="row">
+                    <div class="about-col1">
+                        <img src="Images/About_Img.png">
+                    </div>
+                    <div class="about-col2">
+                        <h3 class="sub-title">About</h3>
+                        <p class="sub-title-contents">I'm passionate about designing and developing websites. I'm always willing to innovate new things which can
+                            improve the existing technology. </p>
+                        <div class="topics">
+                            <div class="topic-link active-link" onclick="opentab('education')">Education</div>
+                            <div class="topic-link" onclick="opentab('experience')">Experience</div>
+                        </div>
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>2019 - 2023</span><br>B.Tech CSE<p>Karunya Institute of Technology and Sciences</p></li>
+                                <li><span>2018 - 2019</span><br>Higher Secondary<p>TANCEM Mat. Hr. Sec. School</p></li>
+                                <li><span>2016 - 2017</span><br>Senior Secondary<p>TANCEM Mat. Hr. Sec. School</p></li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>Dec, 2022 - Mar, 2023</span><br>Full Stack Developer Intern<p>Triquetra Healthcare Pvt Ltd.</p></li>
+                                <li><span>Nov, 2022</span><br>#72 Hrs Hackathon<p>Triquetra Healthcare Pvt Ltd.</p></li>
+                                <li><span>Nov, 2022</span><br>#72 Hrs Hackathon<p>Triquetra Healthcare Pvt Ltd.</p></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a href="#contact" class="contact"></a>
+            </div>
+        </div>
+    </section>
+    <!-- -----------Services------- -->
+    <section>
+        <div id="services">
+            <div class="container2">
+                <h1 class="sub-title">Services</h1>
+                <h2 class="sub-title1">What I Do ?</h2>
+                    <div class="service-list">
+                        <div>
+                            <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                            <h2>Web Development</h2>
+                            <p>I am a Front End Web Developer. I can build an user friendly and responsive website in less time with less code.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-code"></i>
+                            <h2>UI/UX</h2>
+                            <p>I can design visually stunning user interfaces (UI) that captivate users from the first glance and the user friendly UI.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                        <div>
+                            <i class="fa-solid fa-photo-film"></i>
+                            <h2>Video Editing</h2>
+                            <p>I can provide the good quality contents that will blow the users mind and provides high value to detailing.</p>
+                            <a href="#">Read More</a>
+                        </div>
+                    </div>
+            </div>
+        </div>  
+    </section>
+
+    <!-- -------Skills-------- -->
+    <section>
+        <div class="skills">
+            <div class="row1">
+                <h1 class="title">Skills</h1>
+                <h1 class="sub-title-2">Coolest Ever</h1>
+            </div>
+            <div class="row2">
+                    <div class="skill1">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="number1"></div>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                            <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                            </defs>
+                            <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                        </svg>
+                        <div class="skillset1"><p>Front-End Development</p></div>
+                    </div>
+
+                    <div class="skill2">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="number2"></div>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                            <defs>
+                                <linearGradient id="GradientColor">
+                                    <stop offset="0%" stop-color="#e91e63" />
+                                    <stop offset="100%" stop-color="#673ab7" />
+                                </linearGradient>
+                            </defs>
+                            <circle class="circle2" cx="80" cy="80" r="70" stroke-linecap="round" />
+                        </svg>
+                        <div class="skillset1"><p>UI/UX</p></div>
+                    </div>
+
+                    <div class="skill3">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="number3"></div>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                            <defs>
+                                <linearGradient id="GradientColor">
+                                    <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                            </defs>
+                            <circle class="circle3" cx="80" cy="80" r="70" stroke-linecap="round" />
+                        </svg>
+                        <div class="skillset1"><p>Back-End Development</p></div>
+                    </div>
+
+                    <div class="skill4">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="number4"></div>
+                            </div>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                            <defs>
+                            <linearGradient id="GradientColor">
+                                <stop offset="0%" stop-color="#e91e63" />
+                                <stop offset="100%" stop-color="#673ab7" />
+                            </linearGradient>
+                        </defs>
+                            <circle class="circle4" cx="80" cy="80" r="70" stroke-linecap="round" />
+                        </svg>
+                        <div class="skillset1"><p>Editing</p></div>
+                    </div>
+            </div>
+    </div>
+    </section>
+
+    <!-- --------My Work------ -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="sub-title-1">Projects</h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="Images/project1.png" alt="">
+                <div class="layer">
+                    <h3>Vehicle Management</h3>
+                    <p>This provides a centralized hub
+                        for efficiently managing various aspects related to
+                        vehicles, including tracking, maintenance,
+                        scheduling, and reporting</p>
+                    <!-- <a href=""><i class="fa-solid fa-up-right-from-square"></i></a> -->
+                </div>
+            </div>        
+            <div class="portfolio-box">
+                <img src="Images/project2.png" alt="">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>My personal portfolio website to
+                        present my skills and the work that I have done</p>
+                    <!-- <a href=""><i class="fa-solid fa-up-right-from-square"></i></a> -->
+                </div>
+            </div>        
+            <div class="portfolio-box">
+                <img src="Images/project3.png" alt="">
+                <div class="layer">
+                    <h3>Crypto Clone App Design</h3>
+                    <p>My design replicates the popular crypto platforms, helps users to buy, sell, and trade
+                          a wide range of digital assets with ease</p>
+                    <!-- <a href=""><i class="fa-solid fa-up-right-from-square"></i></a> -->
+                </div>
+            </div>   
+        </div>
+        <a href="#" class="btn">See More</a>     
+
+    </section>
+
+    <!-- -------Contact---------->
+    <footer>
+    <section id="contact">
+                <div class="get-in-touch">
+                    <div class="heading">
+                        <p>Get in Touch</p>
+                        <h1>Talk With Me</h1>
+                    </div>
+                    <div class="contact-info-container">
+                        <img src="Images/mail.svg" alt="mail" loading="lazy">
+                        <div class="contact-info">
+                            <p>Chat With Me</p>
+                            <a href="mailto:harigokuls@karunya.edu.in">harigokuls@karunya.edu.in</a>
+                        </div>
+                    </div>
+                    <div class="contact-info-container">
+                        <img src="Images/location.svg" alt="location" loading="lazy">
+                        <div class="contact-info">
+                            <p>Residing In</p>
+                            <a href="https://www.google.com/maps/place/Kannithavanpatti,+Tamil+Nadu/@9.3809054,77.6281825,252m/data=!3m1!1e3!4m6!3m5!1s0x3b06c122a81caf1d:0xe21f9e2613862236!8m2!3d9.3814633!4d77.6287943!16s%2Fg%2F11ckx10265?entry=ttu" rel="noopener" target="_blank">India</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="consult">
+                    <div class="heading">
+                        <p>Consult</p>
+                        <h1>Let Me Know Here</h1>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contact-form" name="submit-to-google-sheet">
+                            <label for="name" class="hidden">Name</label>
+                            <input name="Name" type="text" id="name" placeholder="Enetr your name here" required>
+                            <br>
+                            <label for="email" class="hidden">Email</label>
+                            <input name="Email" type="email" id="email" placeholder="Enetr your email here" required>
+                            <br>
+                            <label for="message" class="hidden">Message</label>
+                            <textarea name="Message" id="message" cols="30" rows="4" placeholder="Tell me about your project" required></textarea>
+                            <br>
+                            <div class="button-container">
+                                <button type="submit">Get The Details</button>
+                                <div class="button-decoration">
+                                    <div class="left-top"></div>
+                                    <div class="right-bottom"></div>
+                                </div>
+                            </div>
+                            <span id="success_msg"></span>
+                        </form>
+                    </div>
+                </div>
+    </section>
+    <section class="ref-container">
+        <div class="listings">
+            <div class="heading">
+                <p>Documents</p>
+            </div>
+            <div class="listing-info">
+                <div class="listing">
+                    <img src="Images/resume.svg" alt="Download resume" width="30px" height="30px" loadinng="lazy">
+                    <a href="Documents/Harigokul_Seenivasan.pdf">Resume</a>
+                </div>
+            </div>
+        </div>
+        <div class="listings">
+            <div class="heading">
+                <p>Attributions</p>
+            </div>
+            <div class="listing-info">
+                <div class="listing listing-icon">
+                    <img src="Images/attributes.svg" alt="resume" width="25px" height="25px" loading="lazy">
+                    <p>All icons from <a href="https://fontawesome.com/" target="_blank" rel="noopener">FontAwesome</a></p>
+                </div>
+                <div class="listing listing-highlights">
+                    <img src="Images/theme_icon.svg" alt="theme_icon" width="25px" height="25px" loading="lazy">
+                    <p>Theme inspired by Avinash from <a href="https://www.youtube.com/@GreatStackDev/featured">GreatStack</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>
+<script src="scripts.js"></script>
+</body>
+</html>
